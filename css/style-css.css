@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Karla', sans-serif!important;
+    display: grid;
+    place-items: center;
+    height: 97vh;
+    background-color: var(--Light-Gray)!important;
+}
+:root {
+    --color-Cyan: hsl(179, 62%, 43%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+}
+.join-community {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 3rem;
+}
+@media (max-width: 767px) {
+    .join-community {
+        padding: 2rem;
+    }
+}
+.join-community h1 {
+    color: var(--color-Cyan);
+    font-size: 26px;
+}
+.join-community .hasle {
+    color: var(--Bright-Yellow);
+    font-size: 18px;
+    font-weight: 700;
+}
+.join-community p {
+    color: var(--Grayish-Blue);
+    font-size: 15px;
+}
+
+@media (max-width: 767px) {
+    .why-monthly {
+        flex-direction: column;
+    }
+}
+
+.grid-component .monthly-subscribe {
+    background-color: var(--color-Cyan);
+    border-bottom-left-radius: 10px;
+    padding: 2rem 3rem;
+}
+@media (max-width: 767px) {
+    .grid-component .monthly-subscribe {
+        border-bottom-left-radius: unset;
+        padding: 2rem;
+    }
+}
+.monthly-subscribe h1 {
+    font-size: 21px;
+}
+.monthly-subscribe .price-monthly {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+}
+.monthly-subscribe .price-monthly span {
+    color: #ffffff5e;
+    font-size: 16px;
+    margin-left: 10px;
+    font-weight: lighter;
+}
+.monthly-subscribe .sign-up {
+    padding: 10px 20px;
+    background-color: var(--Bright-Yellow);
+    box-shadow: 0 8px 10px hsl(179deg 75% 31%);
+}
+.grid-component .why-us {
+    background-color: hsl(179 62% 43% / 77%);
+    border-bottom-right-radius: 10px;
+    padding: 2rem 3rem;
+}
+@media (max-width: 767px) {
+    .grid-component .why-us {
+        border-bottom-left-radius: 10px;
+        padding: 1.5rem;
+    }
+}
+.why-us h1 {
+    font-size: 21px;
+}
+
+.why-us p {
+    width: 233px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffffa8;
+}
